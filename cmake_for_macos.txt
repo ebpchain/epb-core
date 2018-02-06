@@ -1,0 +1,1 @@
+cmake -DOPENSSL_INCLUDE_DIR=/usr/local/opt/openssl/include -DOPENSSL_SSL_LIBRARY=/usr/local/opt/openssl/lib/libssl.a -DOPENSSL_CRYPTO_LIBRARY=/usr/local/opt/openssl/lib/libcrypto.a -DBOOST_ROOT=/usr/local/Cellar/boost@1.60/1.60.0  -DCMAKE_BUILD_TYPE=RelWithDebInfo .
